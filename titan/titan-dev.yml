@@ -7,8 +7,8 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
         url: jdbc:mysql://172.17.0.2:3306/titan?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true
-        username: titan
-        password: titan
+        username: titan_dev
+        password: titan_dev
       initial-size: 10
       max-active: 100
       min-idle: 10
